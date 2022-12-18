@@ -219,11 +219,11 @@ li.dropdown {
                 echo "</td>";
                 echo "<td class='servicePrice'>";
                 if($booking['service_option']==1){
-                  echo "₹150";
+                  echo "$15";
                 } else if($booking['service_option']==2){
-                  echo "₹250";
+                  echo "$25";
                 } else if($booking['service_option']==3){
-                  echo "₹300";
+                  echo "$30";
                 } else{
                   echo "Error";
                 }
