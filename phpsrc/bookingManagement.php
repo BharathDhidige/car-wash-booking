@@ -133,27 +133,6 @@
         <?php
         }  
     } 
-    if(isset($_POST['delete5'])){
-        $serviceTime = $_SESSION['user']['bookings'][5]['service_time'];
-        $email = $_SESSION['user']['email'];
-        $sql = "delete from booking where email='$email' and service_time='$serviceTime'";
-        if(!mysqli_query($conn, $sql)){
-            ?>
-            <script type = "text/javascript">
-                alert("Error occurred: "<?php mysqli_error($conn)?>" Click to back to the car management page");
-                window.location.href = "http://localhost/spm_project/myBooking.php";
-            </script>
-        <?php
-        } else{
-            require 'updateUser.php';
-            ?>
-            <script type = "text/javascript">
-                alert("Delete success! Click to back to booking management page");
-                window.location.href = "http://localhost/spm_project/myBooking.php";
-            </script>
-        <?php
-        }  
-    } 
 
     if(isset($_POST['change0'])){
         $serviceTime = $_SESSION['user']['bookings'][0]['service_time'];
@@ -224,23 +203,6 @@
     }
 
     if(isset($_POST['change4'])){
-        $serviceTime = $_SESSION['user']['bookings'][0]['service_time'];
-        $email = $_SESSION['user']['email'];
-        $sql = "delete from booking where email='$email' and service_time='$serviceTime'";
-        if(!mysqli_query($conn, $sql)){
-            ?>
-            <script type = "text/javascript">
-                alert("Error occurred: "<?php mysqli_error($conn)?>" Click to back to the car management page");
-                window.location.href = "http://localhost/spm_project/myBooking.php";
-            </script>
-        <?php
-        } else{
-            require 'updateUser.php';
-            header("Location: http://localhost/spm_project/booking.php");
-        }  
-    }
-
-    if(isset($_POST['change5'])){
         $serviceTime = $_SESSION['user']['bookings'][0]['service_time'];
         $email = $_SESSION['user']['email'];
         $sql = "delete from booking where email='$email' and service_time='$serviceTime'";
