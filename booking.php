@@ -135,9 +135,9 @@ li.dropdown {
                         <div class="ky-style">
                             <div class="teacher5-top">
                                 <select class="inputNum form-control" name='carType' id="carType">
-                                  <option value='1'>Sedan </option>
-				  <option value='2'>SUV </option>
-				  <option value='3'>Hatchback </option>
+                                  <option value='1'>Hatchback </option>
+				                          <option value='2'>Sedan </option>
+				                          <option value='3'>SUV </option>
                                 </select>
                             </div>
                         </div>
@@ -186,7 +186,7 @@ li.dropdown {
                         <table>
                 <thead>
                   <tr>
-                    <th colspan="2" width="140"></th>
+                    <th colspan="1" width="140"></th>
                     <th class=timeTableDate></th>
                     <th class=timeTableDate></th>
                     <th class=timeTableDate></th>
