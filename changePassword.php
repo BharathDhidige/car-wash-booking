@@ -204,20 +204,6 @@ li.dropdown {
                     <p>Welcome to book our service online.</p>
                 </div>
             </div>
-            <div class="col-md-3" style="display: none;">
-                <div class="footer-grid f-blog">
-                    <h5>Form the Blog</h5>
-
-                    <div class="f-blog-artical">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> <span>March 20,2014</span>
-
-                    </div>
-                    <div class="f-blog-artical f-blog-artical1">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> <span>March 20,2014</span>
-
-                    </div>
-                </div>
-            </div>
             <div class="col-md-3">
                 <div class="footer-grid site-map">
                     <h5>Site Map</h5>
@@ -229,9 +215,6 @@ li.dropdown {
                         </li>
                         <li><a href="services.html"><span> </span>Services</a>
                         </li>
-                        <li><a href="#"><span> </span>Booking</a>
-                        </li>
-                        <!-- <li><a href="contact.html"><span> </span>Contact</a></li> -->
                     </ul>
                 </div>
             </div>
