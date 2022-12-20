@@ -248,9 +248,6 @@ li.dropdown {
             </li>
             <li><a href="services.php"><span> </span>Services</a>
             </li>
-            <li><a href="#"><span> </span>Booking</a>
-            </li>
-            <!-- <li><a href="contact.html"><span> </span>Contact</a></li> -->
           </ul>
         </div>
       </div>
@@ -337,7 +334,7 @@ li.dropdown {
     methods: {
       checkEmail: function () {
         value = this.email;
-        if (!value) return ""; //如果为空，则返回空字符串
+        if (!value) return "";
         var myReg = /^[a-zA-Z0-9_-]+@([a-zA-Z0-9]+\.)+(com|cn|net|org)$/;
         if (myReg.test(value)) {
           this.emailColor = "color:green";
