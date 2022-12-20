@@ -112,7 +112,7 @@ li.dropdown {
 								// if the user is not logged in, show login/register
 								session_start();
 								error_reporting( error_reporting() & ~E_NOTICE );
-								if($_SESSION["user"]==null){
+								if (!(isset($_SESSION['login']) && $_SESSION['login'] != '')) {
 									?><li><a href="login.html">Login/Register</li></a><?php
 								} else{
 									// if the user has logged in show name and dropdown menu
