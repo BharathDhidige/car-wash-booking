@@ -393,28 +393,14 @@ li.dropdown {
 										<p> Welcome to book our service online.	</p>
 									</div>
 								</div>
-								<div class="col-md-3" style="display: none;">
-									<div class="footer-grid f-blog">
-										<h5>Form the Blog</h5>
-										<div class="f-blog-artical">
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-											<span>March 20,2014</span>
-										</div>
-										<div class="f-blog-artical f-blog-artical1">
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-											<span>March 20,2014</span>
-										</div>
-									</div>
-								</div>
 								<div class="col-md-3">
 									<div class="footer-grid site-map">
 										<h5>Site Map</h5>
 										<ul>
-											<li><a href="index.html"><span> </span>Home</a></li>
-											<li><a href="about.html"><span> </span>About</a></li>
-											<li><a href="services.html"><span> </span>Services</a></li>
-											<li><a href="#"><span> </span>Booking</a></li>
-											<!-- <li><a href="contact.html"><span> </span>Contact</a></li> -->
+											<li><a href="index.php"><span> </span>Home</a></li>
+											<li><a href="about.php"><span> </span>About</a></li>
+											<li><a href="services.php"><span> </span>Services</a></li>
+											<li><a href="myBooking.php"><span> </span>Booking</a></li>
 										</ul>
 									</div>
 								</div>
@@ -449,9 +435,9 @@ li.dropdown {
 							</div>
 							<div class="footer-bottom-right">
 								<ul>
-									<li><a href="#">Facebook</a></li>
-									<li><a href="#">Twitter</a></li>
-									<li><a href="#">Google+</a></li>
+									<li><a href="https://www.facebook.com/">Facebook</a></li>
+									<li><a href="https://twitter.com/i/flow/login">Twitter</a></li>
+									<li><a href="https://www.instagram.com/">Instagram</a></li>
 								</ul>
 							</div>
 							<div class="clearfix"> </div>
