@@ -156,17 +156,17 @@ li.dropdown {
 										<div class="col-md-6 services-left-grid">
 											<h3>Wash Outside Only</h3>
 											<p>Wash outside only.</p>
-											<a class="more-btn" >RS 150</a>
+											<a class="more-btn" href="login.html" >RS 150</a>
 										</div>
 										<div class="col-md-6 services-left-grid">
 											<h3>Wash inside and outside</h3>
 											<p>Wash inside and outside.</p>
-											<a class="more-btn" >RS 250</a>
+											<a class="more-btn" href="login.html" >RS 250</a>
 										</div>
 										<div class="col-md-6 services-left-grid">
 											<h3>deluxe wash</h3>
 											<p>Deluxe wash (which is inside and outside and the car is very dirty)</p>
-											<a class="more-btn" >RS 300</a>
+											<a class="more-btn" href="login.html" >RS 300</a>
 										</div>
 										
 										<div class="clearfix"> </div>
@@ -178,21 +178,6 @@ li.dropdown {
 						</div>
 					</div>
 					<!-- Services -->
-							<!-- team-grids-caption -->
-							<div class="team-grids-caption" style="display: none;">
-								<div class="container">
-									<div class="team-grids-caption-left">
-										<h4>He point of using Lorem Ipsum is that</h4>
-										<p>as opposed to using Many desktop publishing packages and web page editors now use </p>
-									</div>
-									<div class="team-grids-caption-right">
-										<a class="team-btn" href="#">ReadMore</a>
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-							</div>
-							<!-- team-grids-caption -->
-							<!-- /team-grids -->
 						</div>
 					</div>
 					<!-- /team -->
@@ -207,28 +192,14 @@ li.dropdown {
 											<p> Welcome to book our service online.	</p>
 									</div>
 								</div>
-								<div class="col-md-3" style="display: none;">
-									<div class="footer-grid f-blog">
-										<h5>Form the Blog</h5>
-										<div class="f-blog-artical">
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-											<span>March 20,2014</span>
-										</div>
-										<div class="f-blog-artical f-blog-artical1">
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-											<span>March 20,2014</span>
-										</div>
-									</div>
-								</div>
 								<div class="col-md-3">
 									<div class="footer-grid site-map">
 										<h5>Site Map</h5>
 										<ul>
 											<li><a href="index.php"><span> </span>Home</a></li>
-											<li><a href="about.html"><span> </span>About</a></li>
-											<li><a href="services.html"><span> </span>Services</a></li>
-											<li><a href=""><span> </span>Booking</a></li>
-											<!-- <li><a href="contact.html"><span> </span>Contact</a></li> -->
+											<li><a href="about.php"><span> </span>About</a></li>
+											<li><a href="services.php"><span> </span>Services</a></li>
+											<li><a href="myBooking.php"><span> </span>Booking</a></li>
 										</ul>
 									</div>
 								</div>
@@ -263,9 +234,9 @@ li.dropdown {
 							</div>
 							<div class="footer-bottom-right">
 								<ul>
-									<li><a href="#">Facebook</a></li>
-									<li><a href="#">Twitter</a></li>
-									<li><a href="#">Google+</a></li>
+									<li><a href="https://www.facebook.com/">Facebook</a></li>
+									<li><a href="https://twitter.com/i/flow/login">Twitter</a></li>
+									<li><a href="https://www.instagram.com/">Instagram</a></li>
 								</ul>
 							</div>
 							<div class="clearfix"> </div>
