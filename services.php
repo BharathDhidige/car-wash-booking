@@ -156,17 +156,17 @@ li.dropdown {
 										<div class="col-md-6 services-left-grid">
 											<h3>Wash Outside Only</h3>
 											<p>Wash outside only.</p>
-											<a class="more-btn" href="login.html" >RS 150</a>
+											<a class="more-btn" >RS 150</a>
 										</div>
 										<div class="col-md-6 services-left-grid">
 											<h3>Wash inside and outside</h3>
 											<p>Wash inside and outside.</p>
-											<a class="more-btn" href="login.html" >RS 250</a>
+											<a class="more-btn" >RS 250</a>
 										</div>
 										<div class="col-md-6 services-left-grid">
 											<h3>deluxe wash</h3>
 											<p>Deluxe wash (which is inside and outside and the car is very dirty)</p>
-											<a class="more-btn" href="login.html" >RS 300</a>
+											<a class="more-btn" >RS 300</a>
 										</div>
 										
 										<div class="clearfix"> </div>
@@ -199,7 +199,6 @@ li.dropdown {
 											<li><a href="index.php"><span> </span>Home</a></li>
 											<li><a href="about.php"><span> </span>About</a></li>
 											<li><a href="services.php"><span> </span>Services</a></li>
-											<li><a href="myBooking.php"><span> </span>Booking</a></li>
 										</ul>
 									</div>
 								</div>
