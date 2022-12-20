@@ -135,12 +135,9 @@ li.dropdown {
                         <div class="ky-style">
                             <div class="teacher5-top">
                                 <select class="inputNum form-control" name='carType' id="carType">
-                                  <?php
-                                    $cars = $_SESSION['user']['cars'];
-                                    foreach($cars as $car){
-                                      echo "<option value='$car'> $car</option>";
-                                    } 
-                                  ?>
+                                  <option value='1'>Sedan </option>
+				  <option value='2'>SUV </option>
+				  <option value='3'>Hatchback </option>
                                 </select>
                             </div>
                         </div>
@@ -151,18 +148,18 @@ li.dropdown {
                             </span>
                             <p>
                                 Select one out of a variety of options namely
-                                </br>(i) wash outside only $15,
-                                </br>(ii) wash inside and outside $25,
-                                </br>(iii) deluxe wash $30 (which is inside and outside and the car is very dirty);
+                                </br>(i) wash outside only RS 150,
+                                </br>(ii) wash inside and outside RS 250,
+                                </br>(iii) deluxe wash RS 300 (which is inside and outside and the car is very dirty);
 
                             </p>
                         </div>
                         <div class="ky-style">
                             <div class="teacher5-top">
                                 <select class="inputNum form-control" name='serviceOption' id="serviceOption">
-                                    <option value='1' selected>wash outside only($15)</option>
-                                    <option value='2'>wash inside and outside($25)</option>
-                                    <option value='3'>deluxe wash($30) </option>
+                                    <option value='1' selected>wash outside only(RS 150)</option>
+                                    <option value='2'>wash inside and outside(RS 250)</option>
+                                    <option value='3'>deluxe wash(RS 300) </option>
                                 </select>
                             </div>
                         </div>
@@ -200,11 +197,8 @@ li.dropdown {
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <td rowspan="7" class="am"><strong>Morning</strong></td>
-                  </tr>
                   <tr class="back">
-                    <td><strong>08:00</strong></td>
+                    <td><strong>09:00</strong></td>
                     <td class="open"><span>OPEN</span></td>
                     <td class="open"><span>OPEN</span></td>
                     <td class="open"><span>OPEN</span></td>
@@ -214,7 +208,7 @@ li.dropdown {
                     <td class="open"><span>OPEN</span></td>
                   </tr>
                   <tr>
-                    <td><strong>08:40</strong></td>
+                    <td><strong>11:00</strong></td>
                     <td class="open"><span>OPEN</span></td>
                     <td class="open"><span>OPEN</span></td>
                     <td class="open"><span>OPEN</span></td>
@@ -224,7 +218,7 @@ li.dropdown {
                     <td class="open"><span>OPEN</span></td>
                   </tr>
                   <tr class="back">
-                    <td><strong>09:20</strong></td>
+                    <td><strong>13:00</strong></td>
                     <td class="open"><span>OPEN</span></td>
                     <td class="open"><span>OPEN</span></td>
                     <td class="open"><span>OPEN</span></td>
@@ -234,7 +228,7 @@ li.dropdown {
                     <td class="open"><span>OPEN</span></td>
                   </tr>
                   <tr>
-                    <td><strong>10:00</strong></td>
+                    <td><strong>15:00</strong></td>
                     <td class="open"><span>OPEN</span></td>
                     <td class="open"><span>OPEN</span></td>
                     <td class="open"><span>OPEN</span></td>
@@ -244,110 +238,7 @@ li.dropdown {
                     <td class="open"><span>OPEN</span></td>
                   </tr>
                   <tr class="back">
-                    <td><strong>10:40</strong></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                  </tr>
-                  <tr>
-                    <td><strong>11:20</strong></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                  </tr>
-                  <tr>
-                    <td rowspan="11" class="am"><strong>Afternoon</strong></td>
-                  </tr>
-                  <tr class="back">
-                    <td><strong>12:00</strong></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                  </tr>
-                  <tr>
-                    <td><strong>12:40</strong></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                  </tr>
-                  <tr class="back">
-                    <td><strong>13:20</strong></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                  </tr>
-                  <tr>
-                    <td><strong>14:00</strong></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                  </tr>
-                  <tr class="back">
-                    <td><strong>14:40</strong></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                  </tr>
-                  <tr>
-                    <td><strong>15:20</strong></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                  </tr>
-                  <tr class="back">
-                    <td><strong>16:00</strong></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                  </tr>
-                  <tr>
-                    <td><strong>16:40</strong></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                    <td class="open"><span>OPEN</span></td>
-                  </tr>
-                  <tr class="back">
-                    <td><strong>17:20</strong></td>
+                    <td><strong>17:00</strong></td>
                     <td class="open"><span>OPEN</span></td>
                     <td class="open"><span>OPEN</span></td>
                     <td class="open"><span>OPEN</span></td>
@@ -361,8 +252,6 @@ li.dropdown {
               </table>
                         </div>
                         <input type="hidden" name="serviceTime" value="" id="timePeriod">
-                        <!-- 这个地方存放时间 格式："2019-10-9 08:00" -->
-                        <!-- <a href="javascript:;" class="yy-qr">Confirm Booking</a> -->
                         <h1 align='center'><button type='submit' class="btn btn-success btn-lg" name="confirm">Confirm Booking</button></h1>
                     </form>
                 </div>
@@ -376,7 +265,7 @@ li.dropdown {
     }
     $('.timeTableDate').ready(function () {
       var date = new Date();
-      var day = date.getDay(); //通过日期对象获取数字形式的星期几
+      var day = date.getDay();
       var weeks = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
 
       var tdsCollection = document.getElementsByClassName("timeTableDate");
@@ -505,14 +394,6 @@ li.dropdown {
     })
 
     $('.yy-qr').click(function () {
-      /*var d = dialog({
-          title: 'dialog',
-          content: '预约成功！',
-          cancel: false,
-          okValue: '<div style="padding-left:15px;padding-right:15px">确认</div>',
-          ok: function () {}
-      });
-      d.showModal();*/
       var carType = $("select[name='carType'] :selected").val();
       // alert(carType);
       var serviceType = $("select[name='serviceType'] option:selected").val();
