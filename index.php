@@ -127,7 +127,6 @@ li.dropdown {
 									<?php
 								}
 							 ?>
-						<!-- <li><a href="contact.html">Contact</a></li> -->
 						<div class="clearfix"> </div>
 					</ul>
 				</div>
@@ -375,11 +374,7 @@ li.dropdown {
 							</div>
 						</div>
 					</div>
-							<!-- team-grids-caption -->
-							
-							<!-- team-grids-caption -->
-							<!-- /team-grids -->
-						</div>
+					</div>
 					</div>
 					<!-- /team -->
 					<!-- footer -->
@@ -400,7 +395,6 @@ li.dropdown {
 											<li><a href="index.php"><span> </span>Home</a></li>
 											<li><a href="about.php"><span> </span>About</a></li>
 											<li><a href="services.php"><span> </span>Services</a></li>
-											<li><a href="myBooking.php"><span> </span>Booking</a></li>
 										</ul>
 									</div>
 								</div>
